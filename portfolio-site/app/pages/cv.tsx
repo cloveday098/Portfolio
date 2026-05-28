@@ -9,6 +9,9 @@ export default function cv() {
                 height="1000"
                 title="Embedded PDF Viewer"
             />
+
+            <img src="static/prosthetic_hand_senior_study_poster_2026.jpg" alt="Senior Thesis Poster" width="750" height="600"></img>
+            <img src="static/OMNI_2024 Poster_Final.jpg" alt="Senior Thesis Poster" width="750" height="600"></img>
       </section>
     )
 }

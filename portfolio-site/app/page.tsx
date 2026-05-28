@@ -11,9 +11,17 @@ export default function page() {
   return (
     <section>
       <Header name="Chance Loveday"/>
-      <p>This is my amazing site!</p>
+      <img src="static/Chance_Prof_Headshot.jpg" alt="Headshot" width="500" height="500"></img>
 
-      <img src="static/prosthetic_hand_senior_study_poster_2026.jpg" alt="Senior Thesis Poster" width="750" height="600"></img>
+      <Header name="Mentorship"/>
+      <img src="static/S3_Chat_Aquarium_Conserv_Pic.jpg" alt="Group picture with the 2024 Scots Science Scholars cohort at the Chattanooga Aquarium Conservation" width="500" height="500"></img>
+      <img src="static/S3_Tree_Group_Pic.png" alt="2024 S3 cohort at the end of orientation" width="500" height="500"></img>
+
+      <Header name="Teaching Assistance -- Move to CV Page"/>
+
+      <Header name="Tutoring"/>
+      <img src="static/New Spring STEM Success Flyer.png" alt="STEM Success Flyer" width="300" height="400"></img>
+      <img src="static/TRIO Tutoring wt Chance Loveday (1).png" alt="TRIO Tutor Flyer" width="300" height="400"></img>
     </section>
   );
 }

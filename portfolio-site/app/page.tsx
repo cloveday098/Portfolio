@@ -1,4 +1,6 @@
 import './globals.css'
+import { SectHeader } from './sectHeader'
+import {GitHubCalendar} from 'react-github-calendar';
 
 /* Function Parameter Declarations */
 interface HeaderProps {
@@ -10,10 +12,6 @@ interface TitleProps {
 }
 
 /* Functions */
-function SectHeader({name}: HeaderProps) {
-  return <h1 className="header">{name}</h1>;
-}
-
 function Title({title}: TitleProps) {
   return(
   <div>
@@ -76,6 +74,9 @@ export default function page() {
 
     <section id='github-dashboard'>
       <SectHeader name="GitHub Activity"/>
+      {/*<div className="portfolio-calendar">
+        <GitHubCalendar username="cloveday098" />
+      </div> */}
     </section>
 
     <section id='top-projects'>

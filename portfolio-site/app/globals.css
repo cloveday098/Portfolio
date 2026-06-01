@@ -81,6 +81,5 @@ body {
 .item-container-CS {
   display: flex;
   flex-direction: row;   /* Horizontal align */
-  gap: 10px;
   align-items: flex-start;   /* Vertical top align */
 }

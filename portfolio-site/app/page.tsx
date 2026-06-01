@@ -46,7 +46,7 @@ export default function page() {
       <p style={{color:'orange'}}>Description Placeholder</p>
     </section>
 
-    <section>
+    <section id='education'>
       <SectHeader name="Education"/>
       <div className='item-container' style={{gap:'25px'}}>
         <img src="https://www.maryvillecollege.edu/wp-content/uploads/Images/Main/MC-footer-logo-v5.png" alt="MC Logo" width="85"/>
@@ -72,24 +72,30 @@ export default function page() {
           <li>Algorithms</li>
         </div>
       </div>
+    </section>
 
+    <section id='github-dashboard'>
+      <SectHeader name="GitHub Activity"/>
+    </section>
+
+    <section id='top-projects'>
+      <SectHeader name="Project Highlights"/>
+      <p style={{color:'orange'}}>Description Placeholder</p>
     </section>
 
       <section id="mentorship">
-      <SectHeader name="Mentorship"/>
-      <img src="static/S3_Chat_Aquarium_Conserv_Pic.jpg" alt="Group picture with the 2024 Scots Science Scholars cohort at the Chattanooga Aquarium Conservation" width="500" height="500"></img>
-      <img src="static/S3_Tree_Group_Pic.png" alt="2024 S3 cohort at the end of orientation" width="500" height="500"></img>
-      </section>
+        <SectHeader name="Mentorship"/>
+        <div className='item-container-CS'>
+          <img src="static/S3_Tree_Group_Pic.png" alt="2024 S3 cohort at the end of orientation" width="381"/>
+          <div>
+            <img src="static/CAD_lab_roger_demo.png" alt="R0G3R Demo during S3 summer CAD lab" width="300" height="300"/>
+            <img src="static/S3_Chat_Aquarium_Conserv_Pic.jpg" alt="Group picture with the 2024 Scots Science Scholars cohort at the Chattanooga Aquarium Conservation" width="300" height="300"/>
+          </div>
+        </div>
+        <img src="static/s3_tva_group_pic.JPG" alt="Group picture with the 2024 Scots Science Scholars cohort at TVA" width="680"/>
 
-      <section>
-      <SectHeader name="Teaching Assistance -- Move to CV Page"/>
+        <p style={{color:'orange'}}>Description Placeholder</p>
       </section>
-
-      <section>
-      <SectHeader name="Tutoring -- Move to CV Page"/>
-      <img src="static/New Spring STEM Success Flyer.png" alt="STEM Success Flyer" width="300" height="400"></img>
-      <img src="static/TRIO Tutoring wt Chance Loveday (1).png" alt="TRIO Tutor Flyer" width="300" height="400"></img>
-    </section>
   </main>
   );
 }
@@ -102,9 +108,6 @@ export default function page() {
 //  - Find pics & tie-in message for Mtn Challenge
 
 // Home Page
-//  - Find pics of Micro Bit, CAD, & other participatory S3 summer labs
 //  - Write a short reflection why this mentorship is important & was a driving part of your MC experience
-//  - Placeholder Projects section
-//  - Placeholder for GitHub integration
 //  - Add Leadership section
 //  - Add Side Navbar

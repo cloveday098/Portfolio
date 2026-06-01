@@ -43,6 +43,36 @@ export default function page() {
   <main className="body">
     <section id="Bio">
       <Title title="Chance Loveday"/>
+      <p style={{color:'orange'}}>Description Placeholder</p>
+    </section>
+
+    <section>
+      <SectHeader name="Education"/>
+      <div className='item-container' style={{gap:'25px'}}>
+        <img src="https://www.maryvillecollege.edu/wp-content/uploads/Images/Main/MC-footer-logo-v5.png" alt="MC Logo" width="85"/>
+        <div> <h2 className="subheader"> Maryville College </h2> <p>B.S. Mathematics, B.A. Computer Science</p><br></br><br></br> </div>
+      </div>
+
+      <center><h2 className="subheader">Notable Courses:</h2></center>
+      <div className="row-container-CS">
+        <div>
+          <li>Multivariable Calculus</li>
+          <li>Differential Equations</li>
+          <li>Calculus-based Physics I-II</li>
+          <li>Linear Algebra</li>
+          <li>Real Analysis</li>
+          <li>Abstract Algebra</li>
+          <li>Probability & Statistics I-II</li>
+        </div>
+
+        <div>
+          <li>Data Structures</li>
+          <li>Database Systems</li>
+          <li>User Interface & Design</li>
+          <li>Algorithms</li>
+        </div>
+      </div>
+
     </section>
 
       <section id="mentorship">
@@ -56,7 +86,7 @@ export default function page() {
       </section>
 
       <section>
-      <SectHeader name="Tutoring"/>
+      <SectHeader name="Tutoring -- Move to CV Page"/>
       <img src="static/New Spring STEM Success Flyer.png" alt="STEM Success Flyer" width="300" height="400"></img>
       <img src="static/TRIO Tutoring wt Chance Loveday (1).png" alt="TRIO Tutor Flyer" width="300" height="400"></img>
     </section>
@@ -74,7 +104,7 @@ export default function page() {
 // Home Page
 //  - Find pics of Micro Bit, CAD, & other participatory S3 summer labs
 //  - Write a short reflection why this mentorship is important & was a driving part of your MC experience
-//  - Placeholder Porjects section
-//  - Explore CSS formatting
+//  - Placeholder Projects section
 //  - Placeholder for GitHub integration
 //  - Add Leadership section
+//  - Add Side Navbar

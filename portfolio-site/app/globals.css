@@ -44,7 +44,7 @@ body {
   cursor:crosshair;
 }
 
-.item-container:hover{
+.item-container a:hover{
   color:orange;
 }
 
@@ -55,25 +55,32 @@ body {
 }
 
 .row-container {
-  display: flex;         /* Activates flexbox layout */
-  flex-direction: row;   /* Horizontally align */
+  display: flex;
+  flex-direction: row;
   gap: 200px;
-  align-items: center;   /* Vertical align */
+  align-items: center;
   padding-bottom: 15px;
+}
+
+.row-container-CS {
+  display: flex;
+  flex-direction: row;
+  gap: 210px;
+  align-items: flex-start;
 }
 
 /* Center Align */
 .item-container {
-  display: flex;         /* Activates flexbox layout */
-  flex-direction: row;   /* Horizontally align */
+  display: flex;
+  flex-direction: row;   /* Horizontal align */
   gap: 10px;
   align-items: center;   /* Vertical align */
 }
 
 /* Collage-Style Align */
 .item-container-CS {
-  display: flex;         /* Activates flexbox layout */
-  flex-direction: row;   /* Horizontally align */
+  display: flex;
+  flex-direction: row;   /* Horizontal align */
   gap: 10px;
-  align-items: flex-start;   /* Vertical align */
+  align-items: flex-start;   /* Vertical top align */
 }

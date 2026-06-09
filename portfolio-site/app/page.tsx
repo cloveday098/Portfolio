@@ -3,10 +3,6 @@ import { SectHeader } from './sectHeader'
 import {GitHubCalendar} from 'react-github-calendar';
 
 /* Function Parameter Declarations */
-interface HeaderProps {
-  name: string;
-}
-
 interface TitleProps {
   title: string;
 }
@@ -41,7 +37,7 @@ export default function page() {
   <main className="body">
     <section id="Bio">
       <Title title="Chance Loveday"/>
-      <p style={{color:'orange'}}>Description Placeholder</p>
+      <p className="descp" style={{width: '750px'}}>Hi, I'm Chance! I'm a recent math and computer science graduate of Maryville College. A good portion of time went towards academics and my various tutoring roles. Teaching has always been an outlet and a passion that I have found rewarding. Maryville provided an excellent environment to nourish my teaching experience through roles as a TA, mentor, and tutor. My time was also dedicated to competing in programming competitions, leading STEM outreach efforts to local schools, and diving 3D-printed projects with the MC3D Printing Club. I am searching for a full-time position as of May 2026; my interests include materials engineering, prosthetic devices, cybersecurity, and applied mathematics.</p>
     </section>
 
     <section id='education'>
@@ -81,7 +77,7 @@ export default function page() {
 
     <section id='top-projects'>
       <SectHeader name="Project Highlights"/>
-      <p style={{color:'orange'}}>Description Placeholder</p>
+      <p className="descp" style={{width: '750px'}}>Here are some project highlights.</p>
     </section>
 
       <section id="mentorship">
@@ -93,9 +89,9 @@ export default function page() {
             <img src="static/S3_Chat_Aquarium_Conserv_Pic.jpg" alt="Group picture with the 2024 Scots Science Scholars cohort at the Chattanooga Aquarium Conservation" width="300" height="300"/>
           </div>
         </div>
+        
+        <br></br><p className="descp" style={{width: '750px'}}>Part of the journey is gaining knowledge and experience yourself; another part is passing that on to others in order to help them grow.</p><br></br>
         <img src="static/s3_tva_group_pic.JPG" alt="Group picture with the 2024 Scots Science Scholars cohort at TVA" width="680"/>
-
-        <p style={{color:'orange'}}>Description Placeholder</p>
       </section>
   </main>
   );
